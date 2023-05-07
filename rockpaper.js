@@ -30,3 +30,9 @@ if (playerSelection === computerSelection) {
   } else {
     return `You Lose! ${computerSelection} beats ${playerSelection}`;
   }
+
+  for (let i = 0; i < 5; i++) {
+    getComputerChoice();
+  }
+
+  playerSelection = prompt();
